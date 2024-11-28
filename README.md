@@ -43,24 +43,26 @@ termux-battery-status: For battery status checks, available via Termux.
 
 Installation:
 
-1. Install Termux and Termux:API from F-Droid
--> https://f-droid.org/packages/com.termux
+1. Install Termux and Termux:API from F-Droid </br>
+-> https://f-droid.org/packages/com.termux </br>
 -> https://f-droid.org/packages/com.termux.api/
 
 2. Set Up Python 3 and Dependencies
 
 After installing Termux, open the app and run the following commands to set up Python and other dependencies:
 
-``pkg update
-pkg install python
-pkg install termux-api``
+``pkg update`` </br>
+``pkg install python`` </br>
+``pkg install termux-api`` </br>
+
 
 3. Clone the Repository or Download the Script
 
 Clone this repository or download the script directly:
 
-git clone https://github.com/realcgcristi/avCheckDroid.git
-cd avCheckDroid
+``git clone`` </br>
+``https://github.com/realcgcristi/avCheckDroid.git`` </br>
+``cd avCheckDroid`` </br>
 
 4. Grant Necessary Permissions
 
