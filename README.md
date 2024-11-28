@@ -1,15 +1,15 @@
 ---
 
-avCheckDroid
+# avCheckDroid
 
-That one check light Python script for PC, kinda ported to mobile
+## That one check light Python script for PC, kinda ported to mobile
 
 A simple yet effective script that monitors various system metrics such as CPU usage, memory, disk, battery, and network speed. Initially created for desktop environments, it has been ported and optimized for Android through Termux. Perfect for monitoring your mobile device's health in real-time.
 
 
 ---
 
-Features:
+# Features:
 
 CPU Usage Monitoring: Alerts when CPU usage exceeds 80%.
 
@@ -27,7 +27,7 @@ Real-time Monitoring: Continuously checks system health every 2 seconds.
 
 ---
 
-Requirements:
+# Requirements:
 
 Termux: A Linux environment for Android, required for running the script.
 
@@ -41,7 +41,7 @@ termux-battery-status: For battery status checks, available via Termux.
 
 ---
 
-Installation:
+# Installation:
 
 1. Install Termux and Termux:API from F-Droid </br>
 -> https://f-droid.org/packages/com.termux </br>
@@ -74,12 +74,12 @@ Make sure Termux has permission to send notifications and access the necessary s
 
 Once everything is set up, you can run the script using:
 
-``python chkdroid.py``
+``python3 avCheckDroid.py``
 
 
 ---
 
-How it Works:
+# How it Works:
 
 The script continuously checks the health of your device's CPU, memory, disk, battery, and network every 2 seconds.
 
@@ -91,7 +91,7 @@ Logs any errors to a local file (chkdroid.log) for debugging and record-keeping.
 
 ---
 
-Configuration:
+# Configuration:
 
 You can easily configure the thresholds for each system metric by modifying the values in the script:
 
